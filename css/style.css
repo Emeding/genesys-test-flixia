@@ -1,0 +1,762 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: yellow;
+}
+ul{
+	list-style-type: none;
+}
+header {
+	background-image: url(../img/goodz-girl.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	padding-left: 93px;
+}	
+	/*position: relative;
+	animation-name: slideshow;
+	animation-duration: 20s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: linear;
+	animation-timing-function: ease-in;
+}
+@keyframes slideshow 
+{ 0%{ background-image: url(../img/goodz-girl.jpg);}
+  30%{ background-image: url(../img/slider-2.jpg); opacity: 0.2;}
+  50%{ background-image: url(../img/slider-3.jpg);}
+  85%{ background-image: url(../img/slider-4.jpg);  opacity: 0.1;}
+  100%{ background-image: url(../img/goodz-girl.jpg);}
+}*/
+
+
+.title{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+.list {
+	display: none;
+}
+.nav:hover .list{
+	display: block;
+}
+.list a{
+	color: grey;
+}
+.nav {
+	font-family: 'century gothic';
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.table {
+	display: inline-block;
+}
+
+
+.list2 {
+	display: none;
+}
+.nav2:hover .list2{
+	display: block;
+}
+.list2 a{
+	color: grey;
+	text-align: center;
+}
+.nav2 {
+	font-family: 'century gothic';
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.table2 {
+ 	display: inline-block;
+}
+
+
+.list3 {
+	display: none;
+}
+.nav3:hover .list3{
+	display: block;
+}
+.list3 a{
+	color: grey;
+	text-align: center;
+}
+.nav3 {
+	font-family: 'century gothic';
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.table3 {
+	display: inline-block;
+}
+
+.list4 {
+	display: none;
+}
+.nav4:hover .list4{
+	display: block;
+}
+.list4 a{
+	color: grey;
+}
+.nav4 {
+	font-family: 'century gothic';
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.table4 {
+	display: inline-block;
+}
+
+.title {
+	font-family: rothena;
+	font-size: 14px;
+	padding-top:10px;
+}
+
+.motto {
+	font-family: 'segoe script';
+	font-size: 40px;
+	color: black;
+	padding-top: 250px;
+	padding-left: 720px;
+}
+
+
+.product {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.info {
+	padding-left: 280px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name {
+	padding-left: 230px;
+	padding-top: 10px;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail {
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+}
+.btn a{
+	color: black;
+	padding-left: 264px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item {
+	float: left;
+	display: block;
+}
+
+
+.product2 {
+   position: absolute;
+   top: 688px;
+   left: 593px;
+   z-index: 4px;
+}
+.info2 {
+	padding-left: 290px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name2 {
+	padding-left: 222px;
+	padding-top: 10px;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail2 {
+	padding-left: 190px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.btn2 a{
+	color: black;
+	padding-left: 270px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item2 {
+	float: left;
+	display: block;
+}
+.text2 {
+   position: absolute;
+   top: 920px;
+   left: 460px;
+   z-index: 4px;
+}
+
+
+.product3 {
+   position: absolute;
+   top: 688px;
+   left: 970px;
+   z-index: 4px;
+}
+.info3 {
+	padding-left: 290px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name3 {
+	padding-left: 198px;
+	padding-top: 10px;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail3 {
+	padding-left: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.btn3 a{
+	color: black;
+	padding-left: 280px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item3 {
+	float: left;
+	display: block;
+}
+.text3 {
+   position: absolute;
+   top: 920px;
+   left: 830px;
+   z-index: 4px;
+}
+
+
+.product4 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.info4 {
+	padding-left: 190px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name4 {
+	padding-left: 130px;
+	padding-top: 10px;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail4 {
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+}
+.btn4 a{
+	color: black;
+	padding-left: 180px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item4 {
+	float: left;
+	display: block;
+}
+
+
+.product5 {
+   position: absolute;
+   top: 1250px;
+   left: 390px;
+   z-index: 4px;
+}
+.info5 {
+	padding-left: 295px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name5 {
+	padding-left: 155px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail5 {
+	padding-left: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.btn5 a{
+	color: black;
+	padding-left: 280px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item5 {
+	float: left;
+	display: block;
+}
+.text5 {
+   position: absolute;
+   top: 1480px;
+   left: 228px;
+   z-index: 4px;
+}
+
+
+.theme {
+    text-align: left;
+	width: 200px;
+	height: 250px;
+	padding-left: 5px;
+	border:solid 2px black;
+	position: absolute;
+	top: 1250px;
+	left: 760px;
+	z-index: 4px;
+}
+.theme2 {
+	font-family: tahoma;
+	font-size: 13px;
+	position: absolute;
+	top: 1290px;
+	left: 840px;
+}
+.theme3 {
+	text-align: center;
+	font-family: 'century gothic';
+	font-size: 15px;
+	position: absolute;
+	top: 1330px;
+	left: 790px;
+}
+.theme4 {
+	font-size: 45px;
+	color: grey;
+	position: absolute;
+	top: 1410px;
+	left: 850px;
+}
+
+.product6 {
+   position: absolute;
+   top: 1250px;
+   left: 1000px;
+   z-index: 4px;
+}
+.info6 {
+	padding-left: 250px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name6 {
+	padding-left: 155px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail6 {
+	padding-left: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.btn6 a{
+	color: black;
+	padding-left: 280px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item6 {
+	float: left;
+	display: block;
+}
+.text6 {
+   position: absolute;
+   top: 1480px;
+   left: 889px;
+   z-index: 4px;
+}
+
+
+.product7 {
+    padding-top: 199px;
+    padding-left: 25px;
+}
+.info7 {
+	padding-left: 130px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name7 {
+	padding-left: 55px;
+	padding-top: 10px;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail7 {
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+}
+.btn7 a{
+	color: black;
+	padding-left: 130px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item7 {
+	float: left;
+	display: block;
+}
+
+
+.product8 {
+   position: absolute;
+   top: 1885px;
+   left: 351px;
+   z-index: 4px;
+}
+.info8 {
+	padding-left: 255px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name8 {
+	padding-left: 155px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail8 {
+	padding-left: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.btn8 a{
+	color: black;
+	padding-left: 255px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item8 {
+	float: left;
+	display: block;
+}
+.text8 {
+   position: absolute;
+   top: 2100px;
+   left: 200px;
+   z-index: 4px;
+}
+
+
+.product9 {
+   max-height: 90%;	
+   position: absolute;
+   top: 1885px;
+   left: 680px;
+   z-index: 4px;
+}
+.info9 {
+	padding-left: 280px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name9 {
+	padding-left: 155px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail9 {
+	padding-left: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.btn9 a{
+	color: black;
+	padding-left: 270px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item9 {
+	float: left;
+	display: block;
+}
+.text9 {
+   position: absolute;
+   top: 2100px;
+   left: 526px;
+   z-index: 4px;
+}
+
+
+
+.product10 {
+   position: absolute;
+   top: 1885px;
+   left: 1010px;
+   z-index: 4px;
+}
+.info10 {
+	padding-left: 280px;
+	padding-top: 30px;
+	font-family: tahoma;
+	font-size: 13px;
+}
+.name10 {
+	padding-left: 155px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+.detail10 {
+	padding-left: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.btn10 a{
+	color: black;
+	padding-left: 270px;
+	font-family: tahoma;
+	font-size: 15px;
+	display: inline-block;
+}
+.item10 {
+	display: flex;
+}
+.text10 {
+   position: absolute;
+   top: 2100px;
+   left: 858px;
+   z-index: 4px;
+}
+
+
+.enter {
+	background-color: black;
+	text-align: center;
+	position: absolute;
+	text-align: center;
+	top: 2500px; 
+	left: 479px; 
+	z-index: 4px;
+}
+input[type=submit]{
+	text-align: center;
+	width: 380px;
+	height: 33px;
+    color: white;
+	display: inline-block;
+	border: none;
+}
+
+.footer1 a{
+	color: black;
+}
+.footer1 {
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 25px;
+	position: absolute;
+	top: 2600px; 
+	left: 40px; 
+	z-index: 4px;
+}
+.cat1 {
+	font-size: 15px;
+}
+
+
+.footer2 {
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 25px;
+	position: absolute;
+	top: 2600px; 
+	left: 200px; 
+	z-index: 4px;
+}
+.cat2 {
+	font-size: 15px;
+}
+.footer2 a{
+	color: black;
+}
+
+
+.footer3 {
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 25px;
+	position: absolute;
+	top: 2600px; 
+	left: 370px; 
+	z-index: 4px;
+}
+.cat3 {
+	font-size: 15px;
+}
+.footer3 a{
+	color: black;
+}
+
+
+.footer4 {
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 25px;
+	position: absolute;
+	top: 2600px; 
+	left: 498px; 
+	z-index: 4px;
+}
+.cat4 {
+	font-size: 15px;
+}
+.footer4 a{
+	color: black;
+}
+.link {
+	margin-top: 20px;
+}
+
+
+.footer5 {
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 25px;
+	position: absolute;
+	top: 2600px; 
+	left: 950px; 
+	z-index: 4px;
+}
+.cat5 {
+	font-size: 15px;
+}
+.footer5 a{
+	color: black;
+}
+.link1 {
+	margin-top: 20px;
+}
+
+
+.enter1 {
+	background-color: black;
+	text-align: center;
+	position: absolute;
+	text-align: center;
+	margin-bottom: 100px;
+	top: 2750px; 
+	left: 950px; 
+	z-index: 4px;
+}
+
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 468px)
+{
+
+	header {
+	background-image: url(../img/goodz-girl.jpg);
+	background-size: cover;
+	height: 50px;
+	padding-left: 10px;
+}
+
+
+.nav {
+	font-family: 'century gothic';
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+
+}
+*/
